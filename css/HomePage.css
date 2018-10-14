@@ -1,0 +1,169 @@
+/* 头部 */
+#header{
+	background-color: #5e0025;
+	width:100%;
+	height:100px;
+	position: relative;
+}
+
+#header img{
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+
+/* 导航区 */
+#nav{
+	color:#5e0025;
+	overflow: hidden;
+	height:50px;
+	line-height: 50px;
+	background-color:#e9d3a4;
+}
+
+#nav li{
+	float:left;
+	text-align: center;
+}
+
+.link{
+	width:15%;
+}
+
+.link a{
+	color:#5e0025;
+	font-size: 16px;
+}
+
+.spacer{
+	width:2%;
+	font-family: "arial black";
+}
+
+/* 内容区 */
+#content{
+	padding-bottom:50%;
+	overflow: hidden;
+}
+
+#content a{
+	color:#5e0025;
+}
+
+#pics-wraper{
+	float: left;
+	/* min-width: 400px; */
+}
+
+#pics-wraper img{
+	position:absolute;
+	width:55%;
+	display: none;
+	/* opacity: 0; */
+}
+
+#pics-wraper .first{
+	display: block;
+	/* opacity: 1;*/
+}
+
+#pics-nav{
+	margin-left:55%;
+	width:40%;
+	position:absolute;
+}
+
+.pics-nav-all{
+	position:absolute;
+}
+
+#pics-nav img{
+	max-width: 65px;
+	vertical-align: bottom;
+}
+
+#pics-nav span{
+	display: inline-block;
+}
+
+#pics-nav1{
+	margin-left: -12%;
+	top:10px;
+}
+
+
+#pics-nav2{
+	left:-10px;
+	top:85px;
+	margin-left: -8%;
+}
+
+#pics-nav3{
+	left:10px;
+	top:160px;
+	margin-left: -4%;
+}
+
+#pics-nav4{
+	left:20px;
+	top:235px;
+}
+
+/* 底部 */
+#footer{
+	width:100%;
+	height:50px;
+	/* bottom: 0; */
+	background-color:#811b40;
+	/* overflow: hidden; */
+	position:relative;
+}
+
+#footer-line{
+	width:100%;
+	height:3px;
+	background-color:#e9d3a4;
+	position: absolute;
+	top:3px;
+}
+
+#footer, #footer a{
+	color:white;
+}
+
+#footer-left{
+	position: absolute;
+	left:0;
+	bottom: 0;
+	margin-left: 20px;
+	line-height: 44px;
+}
+
+#footer-left img{
+	vertical-align: middle;
+}
+
+#footer-right{
+	position:absolute;
+	right:0;
+	bottom:0;
+	margin-right: 20px;
+	line-height: 44px;
+}
+
+#share{
+	width:54px;
+	height:80px;
+	background: url(../img/HomePage/share_bg.png) no-repeat;
+	position:absolute;
+	right:-10px;
+	bottom:40px;
+	display: none;
+}
+
+#share img{
+	margin:8px 7px;
+}
